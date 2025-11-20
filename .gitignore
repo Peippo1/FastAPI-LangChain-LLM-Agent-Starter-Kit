@@ -1,1 +1,42 @@
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# VSCode settings
+.vscode/
+
+# Testing
+.coverage
+pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.pid
+
+# Jupyter (if used later)
+.ipynb_checkpoints/
