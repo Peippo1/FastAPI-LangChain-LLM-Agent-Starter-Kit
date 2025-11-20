@@ -3,7 +3,7 @@
 # FastAPI + LangChain LLM Agent Starter Kit
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
-![CI](https://github.com/your-github-username/fastapi-langchain-llm-agent-starter/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Peippo1/FastAPI-LangChain-LLM-Agent-Starter-Kit/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-informational)
 
