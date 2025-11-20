@@ -15,7 +15,7 @@ If you discover a security issue, please report it responsibly.
 
 Instead, please email:
 
-**tim.finch.dev@gmail.com**
+**tim.finch8891@gmail.com**
 
 Include:
 - A clear description of the vulnerability
