@@ -45,6 +45,8 @@ Perfect for:
 - **CI pipeline**  
   GitHub Actions workflow to run tests on every push / PR.
 
+- 🧪 Simple, CI-friendly test suite (no API key required)
+
 ---
 
 ## Quickstart
@@ -56,8 +58,20 @@ python3 -m venv .venv
 source .venv/bin/activate      # or .venv\Scripts\activate on Windows
 pip install --upgrade pip
 pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+python -m uvicorn app.main:app --reload --port 8000
 ```
+
+## Running Tests
+
+This project includes a minimal test suite to verify that the API starts correctly.
+
+To run tests:
+
+```bash
+pytest
+```
+
+Tests do **not** require an OpenAI API key and will pass in any environment, including CI.
 
 Open the interactive API docs at:  
 **http://localhost:8000/docs**
@@ -81,6 +95,20 @@ Open the interactive API docs at:
 ```json
 {
   "output": "The result is 25."
+}
+```
+
+### Root route
+
+**GET** `/`
+
+Returns a simple landing message:
+
+```json
+{
+  "message": "LLM Agent Starter Kit API",
+  "docs_url": "/docs",
+  "health_url": "/health"
 }
 ```
 
@@ -134,7 +162,7 @@ llm-agent-starter/
 │       └── file_parser.py# Local file reader
 │
 ├── tests/
-│   └── test_agent.py     # Basic test using agent.run()
+│   └── test_agent.py     # Basic health check test for CI
 │
 ├── .env.example          # Environment variable template
 ├── requirements.txt       # Python dependencies
@@ -159,6 +187,14 @@ source .venv/bin/activate   # Mac/Linux
 # On Windows:
 .venv\Scripts\activate
 pip install --upgrade pip
+```
+
+### Installing development tools
+
+If you want linting and formatting support, install developer dependencies:
+
+```bash
+pip install -r requirements-dev.txt
 ```
 
 ### Deactivate the virtual environment
