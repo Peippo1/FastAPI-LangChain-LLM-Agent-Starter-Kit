@@ -2,6 +2,8 @@
 
 # FastAPI + LangChain LLM Agent Starter Kit
 
+[![Gumroad](https://img.shields.io/badge/Gumroad-Download-orange?logo=gumroad&logoColor=white)](https://finchly380.gumroad.com/l/fastapi-langchain-agent)
+
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![CI](https://github.com/Peippo1/FastAPI-LangChain-LLM-Agent-Starter-Kit/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
@@ -22,6 +24,59 @@ Perfect for:
 - Hackathons and demos
 - Learning LangChain + FastAPI
 - Building your own agents and tools
+
+---
+
+## What you'll get
+
+- A complete FastAPI + LangChain agent microservice  
+- A working synchronous agent endpoint using a clean invoke pattern  
+- Fully configured CI with pytest, Black, isort, Ruff, and caching  
+- Environment-based settings using pydantic-settings  
+- Production-ready folder structure and Docker setup  
+- Example tools (calculator, web search stub, file parser)  
+- Example tests and CI pipeline  
+- `.env.example` for safe configuration  
+- Free lifetime updates to the Gumroad version  
+
+---
+
+## Who is this for?
+
+This starter kit is designed for developers, data engineers, ML engineers, and indie hackers who want to ship AI-powered APIs quickly and reliably.  
+If you work with FastAPI, LangChain, or LLM-based tools, this provides a clean foundation for building real-world features without boilerplate.
+
+---
+
+## Why I built this
+
+A lot of LangChain examples online are fragmented, outdated, or not structured for real projects.  
+I built this starter kit to provide a clean, stable starting point that follows real engineering principles—so you can focus on your agent, not dependency issues or project scaffolding.
+
+---
+
+## FAQ
+
+**Do I need an API key?**  
+Yes. You will need an API key for the LLM provider you choose (OpenAI, Gemini, etc.).
+
+**Can I use this for commercial work?**  
+Yes. You are free to use this in client and commercial projects.
+
+**Do tests require an API key?**  
+No. All tests run entirely offline.
+
+**Do I get updates?**  
+Yes. All Gumroad buyers receive free lifetime updates to the template.
+
+---
+
+## Want the full packaged version?
+
+A packaged ZIP with updates is available here:  
+**https://finchly380.gumroad.com/l/fastapi-langchain-agent**
+
+---
 
 ---
 
